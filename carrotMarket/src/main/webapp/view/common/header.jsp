@@ -31,14 +31,14 @@
 	<!-- header part -->
 	<header>
 		<div class="header__inner">
-			<a href="/carrotMarket/view/main.jsp"><img
+			<a href="/carrotMarket/view/index.jsp"><img
 				src="/carrotMarket/assets/images/logo-basic.svg" alt="daangn-logo" /></a>
 			<div class="buttons">
 				<div class="buttons-menu">
 					<button class="buttons-menu__list btn-click">중고거래</button>
 				</div>
 				<div class="buttons-menu">
-					<button class="buttons-menu__store">동네가게</button>
+					<button class="buttons-menu__store" onclick="location.href='/carrotMarket/view/product/register.jsp'">상품등록</button>
 				</div>
 			</div>
 			<div class="search">
