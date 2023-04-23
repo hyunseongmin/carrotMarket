@@ -5,7 +5,6 @@
 <head>
 <meta charset="UTF-8">
 <jsp:include page="./common/header.jsp"></jsp:include>
-
 </head>
 <body>
 
