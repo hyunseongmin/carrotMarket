@@ -16,6 +16,9 @@
 <script
 	src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 
+<script src="https://kit.fontawesome.com/700619e3a2.js"
+	crossorigin="anonymous"></script>
+
 <link rel="daangn icon" href="/carrotMarket/assets/images/logo.ico" />
 <link rel="stylesheet" href="/carrotMarket/assets/css/reset.css" />
 <link rel="stylesheet" href="/carrotMarket/assets/css/style.css" />
@@ -42,15 +45,15 @@
 				<input type="text" name="header-search-input" class="search__input"
 					placeholder="동네 이름, 물품명 등을 검색해보세요!" />
 				<button class="search__button">
-					<img src="/carrotMarket/assets/images/search-icon.svg" alt="daangn-search" />
+					<img src="/carrotMarket/assets/images/search-icon.svg"
+						alt="daangn-search" />
 				</button>
 			</div>
 			<div class="buttons">
 				<div class="buttons-chat">
 					<button class="buttons-chat__button"
 						onclick="location.href='/carrotMarket/view/chat/chat.jsp'">
-						당근채팅
-					</button>
+						당근채팅</button>
 				</div>
 				<!-- 로그아웃 시  -->
 				<div class="buttons-login">
@@ -68,7 +71,7 @@
 		</div>
 	</header>
 
-	
+
 
 </body>
 </html>
